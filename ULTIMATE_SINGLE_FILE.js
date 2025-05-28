@@ -37,7 +37,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // ================== КОНФИГУРАЦИЯ ==================
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || 'process.env.TELEGRAM_BOT_TOKEN';
-const ADMIN_ID = 5467443715;
+const ADMIN_ID = process.env.ADMIN_ID;
 const CHANNEL_ID = -1002638030999; // @OkayCryptoChannel
 const PORT = process.env.PORT || 5000;
 
