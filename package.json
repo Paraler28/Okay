@@ -1,0 +1,15 @@
+{
+  "name": "okaycoin-bot",
+  "version": "1.0.0",
+  "main": "ULTIMATE_SINGLE_FILE.js",
+  "scripts": {
+    "start": "node ULTIMATE_SINGLE_FILE.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
